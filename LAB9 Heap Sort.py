@@ -137,12 +137,14 @@ def heapSort(numList):
     # and add those maximums to the beginning of a list to make the list ascending
     for i in numList:
         sortHeap.insert(i)
-    ascending = []
+    descending = []
     
     while len(sortHeap) > 0:
-        ascending.insert(0, sortHeap.deleteMax())
+        descending.append(sortHeap.deleteMax())
 
-    return ascending
+    descending.reverse()
+    # it is now ascending
+    return descending
         
 
     
