@@ -1,2 +1,4 @@
 # Sorting-Algorithms
-made the main sorting algorithms in python
+Built the main sorting algorithms in python
+
+Fall 2020
